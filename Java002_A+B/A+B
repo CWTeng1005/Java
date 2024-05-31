@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class AddNumbers
+{
+    public static void main (String[] args)
+    {
+        //创建Scanner对象以从控制台读取输入
+        Scanner scanner = new Scanner (System.in);
+
+        //提示用户输入第一个整数
+        System.out.print("请输入第一个整数：");
+        int a = scanner.nextInt();
+        //提示用户输入第二个整数
+        System.out.print("请输入第二个整数：");
+        int b = scanner.nextInt();
+
+        //计算两个整数的和
+        int sum = a + b;
+        //输出结果
+        System.out.println("两个整数的和是：" + sum);
+        //关闭Scanner
+        scanner.close();
+    }
+}
