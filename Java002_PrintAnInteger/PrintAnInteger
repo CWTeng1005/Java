@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class PrintAnInteger
+{
+    public static void main (String[] args)
+    {
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+
+        //nextInt() 会读取键盘输入的integer
+        int number = reader.nextInt();
+        //print()是会接在同一行后面，ptintln()会自动分行
+        System.out.print("You entered: " + number);
+
+        //关闭scanner reader
+        //需要注意用的是scanner的名称"reader"而不是"scanner"
+        reader.close();
+    }
+}
