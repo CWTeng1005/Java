@@ -1,0 +1,8 @@
+public class CreateInteger
+{
+    public static void main(String[] args)
+    {
+        int num = 724;
+        System.out.println(num);
+    }
+}
