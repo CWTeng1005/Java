@@ -1,0 +1,11 @@
+public class FinalVariable
+{
+    public static void main(String[] args)
+    {
+        final int num = 724;
+        num = 55;
+        System.out.println(num);
+        //会显示error，
+        //因为final是最终变量，不可修改的read only的
+    }
+}
