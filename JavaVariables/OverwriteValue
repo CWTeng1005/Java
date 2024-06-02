@@ -1,0 +1,9 @@
+public class OverwriteValue
+{
+    public static void main(String[] args)
+    {
+        int num = 724;
+        num = 1005;
+        System.out.println(num);
+    }
+}
