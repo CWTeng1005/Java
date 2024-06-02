@@ -1,0 +1,10 @@
+public class CreateInteger2
+{
+    public static void main(String[] args)
+    {
+        //先创建后赋值
+        int num;
+        num = 724;
+        System.out.println(num);
+    }
+}
