@@ -1,0 +1,15 @@
+public class Logical
+{
+    public static void main(String[] args)
+    {
+        int x = 724;
+        System.out.println(x > 100 && x < 1000);
+        //返回true因为符合条件
+        //&&是符合两个条件
+
+        int y = 724;
+        System.out.println(y > 100 || y > 1000);
+        //返回true因为符合条件
+        //||是至少符合其一条件
+    }
+}
