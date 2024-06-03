@@ -1,0 +1,12 @@
+public class Comparison
+{
+    public static void main(String[] args)
+    {
+        int x = 105;
+        int y = 724;
+        System.out.println(x == y);
+        //返回false，因为x!=y
+        System.out.println(x != y);
+        //返回true
+    }
+}
