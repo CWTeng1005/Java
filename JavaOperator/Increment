@@ -1,0 +1,20 @@
+public class Increment
+{
+    public static void main(String[] args)
+    {
+        int x = 724;
+        ++x;
+        System.out.println(x);
+
+        //x++和++x的区别
+        int a = 5;
+        int b = a++;
+        System.out.println("a = " + a + ", b = " + b);
+        //i++是先给其他的赋值再自己+1（如果有赋值）
+
+        int c = 5;
+        int d = ++c;
+        System.out.println("c = " + c + ", d = " + d);
+        //++i是先自己+1再给其他的赋值（如果有赋值）
+    }
+}
