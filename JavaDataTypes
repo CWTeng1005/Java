@@ -1,0 +1,47 @@
+public class DataTypes
+{
+    public static void main(String[] args)
+    {
+        //byte type
+        byte byte1 = 100;
+        System.out.println(byte1);
+
+        //short type
+        short short1 = 5000;
+        System.out.println(short1);
+
+        //int type
+        int int1 = 100000;
+        System.out.println(int1);
+
+        //long type
+        //整型默认为int类型，如果要定义长整型，推荐在书之后加L或l，为了区分1和l，最好使用L
+        long long1 = 15000000000L;
+        System.out.println(long1);
+
+        //float type
+        //浮点数默认是双精度（double），如果要定义单精度（float），必须在数值后加f或F
+        float float1 = 5.75f;
+        System.out.println(float1);
+
+        //double type
+        //double是默认的浮点数类型，所以d或D不是必须的
+        double double1 = 19.99d;
+        System.out.println(double1);
+
+        //boolean type
+        boolean isHiyoriCute = true;
+        boolean isHiyoriBad = false;
+        System.out.println(isHiyoriCute); //输出true
+        System.out.println(isHiyoriBad); //输出false
+
+        //char type
+        //char不仅可以存储A-Z字母，也可以存储任意的Unicode字符
+        char myGrade = 'R'; 
+        System.out.println(myGrade);
+
+        //string type
+        String oshiName = "Tomoe Hiyori";
+        System.out.println(oshiName);
+    }
+}
