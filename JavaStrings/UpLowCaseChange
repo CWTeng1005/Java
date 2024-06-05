@@ -1,0 +1,9 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        String txt = "Tomoe Hiyori";
+        System.out.println(txt.toUpperCase());
+        System.out.println(txt.toLowerCase());
+    }
+}
