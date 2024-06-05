@@ -1,0 +1,12 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        int myInt = 724;
+        double myDouble = myInt;
+        //int --> double
+
+        System.out.println(myInt);
+        System.out.println(myDouble);
+    }
+}
