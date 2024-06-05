@@ -1,0 +1,9 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        String txt1 = "It's a cat!";
+        System.out.println("The length of the txt1 string is: " + txt1.length());
+        //stringName.length()
+    }
+}
