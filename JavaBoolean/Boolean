@@ -1,0 +1,10 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        boolean isHiyoriGood = true;
+        boolean isHiyoriBad = false;
+        System.out.println(isHiyoriGood);
+        System.out.println(isHiyoriBad);
+    }
+}
