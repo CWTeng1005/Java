@@ -1,0 +1,12 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        String x = "10";
+        int y = 5;
+        String z = x + y;
+        //z只能是String，不能是int
+        System.out.println(z);
+        //z是String的时候，y只会和x衔接而不是加起来
+    }
+}
