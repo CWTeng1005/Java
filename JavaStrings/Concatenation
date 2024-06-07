@@ -1,0 +1,9 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        String firstName = "Tomoe";
+        String lastName = "Hiyori";
+        System.out.println(firstName + " " + lastName);
+    }
+}
