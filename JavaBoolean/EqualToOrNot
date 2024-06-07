@@ -1,0 +1,13 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        int x = 5;
+        System.out.println(x == 5); 
+        //true
+        System.out.println( x != 5);
+        //false
+        
+        //==表示等于；=表示赋值；!=表示不等于
+    }
+}
