@@ -1,0 +1,10 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        if (15 < 20)
+        {
+            System.out.println("15 is smaller than 20");
+        }
+    }
+}
