@@ -1,0 +1,15 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        int i = 0;
+        //当符合while的条件，就会循环执行相关操作，直到不符合条件
+        while(i < 3)
+        {
+            System.out.print(i);
+            //System.out.println(i);
+            i++;
+            //如果i没有任何变化，会出现死循环，一直输出0
+        }
+    }
+}
