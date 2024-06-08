@@ -1,0 +1,21 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        int day = 5;
+        //switch(变量)
+        switch(day)
+        {
+            //不符合任一case的就会按default输出结果
+            default:
+            System.out.println("Weekday");
+            break;
+            case 6:
+            System.out.println("Saturday");
+            break;
+            case 7:
+            System.out.println("Sunday");
+            break;
+        }
+    }
+}
