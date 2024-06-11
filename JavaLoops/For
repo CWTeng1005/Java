@@ -1,0 +1,12 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        for (int i = 0; i < 4; i++)
+        {
+            System.out.println(i);
+            //break;
+            //如果在for里面加上break，就会在第一次执行后直接结束循环
+        }
+    }
+}
