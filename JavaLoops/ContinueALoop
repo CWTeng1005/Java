@@ -1,0 +1,16 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        for (int i = 0; i < 6; i++)
+        {
+            //设置一个进入下一轮循环的条件
+            if (i == 3)
+            {
+                continue;
+                //当i==3，直接进到下一个循环
+            }
+            System.out.println(i);
+        }
+    }
+}
