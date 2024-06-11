@@ -1,0 +1,16 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        int i = 0;
+        do
+        {
+            System.out.print(i);
+            //System.out.println(i);
+            i++;
+        }
+        while (i <= 3);
+        //先写执行的内容再写循环条件
+        //do while的while后面是有;的
+    }
+}
