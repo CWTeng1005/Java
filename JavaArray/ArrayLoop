@@ -1,0 +1,13 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        String[] Eden = {"Nagisa", "Hiyori", "Jun", "Ibara"};
+        for (int i = 0; i < Eden.length; i++)
+        {
+            //如果是小于等于，那就是i <= Eden.length-1，因为数组第一个元素是[0]
+            System.out.println(Eden[i]);
+        }
+        //这不就比一个一个列出来的好多了kksk
+    }
+}
