@@ -1,0 +1,12 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        String[] OEden = {"Nagisa", "Hiyori", "Jun", "Ibara"};
+        System.out.println(OEden[0]);
+        System.out.println(OEden[1]);
+        System.out.println(OEden[2]);
+        System.out.println(OEden[3]);
+        //看起来是个最费时的方法呢...
+    }
+}
