@@ -1,0 +1,14 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        String[] OEden = {"Nagisa", "Hiyori", "Jun", "Ibara"};
+        OEden[2] = "Tsumugi";
+        OEden[3] = "Eichi";
+        for (String i : OEden)
+        {
+            System.out.println(i);
+            //逐个输出数组元素
+        }
+    }
+}
