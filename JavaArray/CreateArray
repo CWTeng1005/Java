@@ -1,0 +1,9 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        String[] Eden = {"Nagisa", "Hiyori", "Jun", "Ibara"};
+        System.out.println(Eden[0] + ", " + Eden[1]);
+        //数组的第一个元素从0开始计数
+    }
+}
