@@ -1,0 +1,10 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        String[][] Eden = {{"Nagisa", "Hiyori"}, {"Jun", "Ibara"}};
+        System.out.println(Eden[0][1]);
+        int[][] numberArray = {{1,2,3,4},{5,6,7}};
+        System.out.println(numberArray[1][2]);
+    }
+}
