@@ -1,0 +1,24 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        String[][] Eden = {{"Nagisa", "Hiyori"}, {"Jun"},{"Ibara"}};
+        System.out.println("数组的长度：" + Eden.length);
+        //数组的长度 = 行数
+        for (int r = 0; r < Eden.length; r++)
+        {
+            int n = r + 1;
+            //用来直观地看从1开始算的行数而已
+            //因为如果在下行直接写r+1的话会变成01/11/21
+            System.out.print("第" + n + "行的长度：" +Eden[r].length);
+            //r行的长度
+            for (int c = 0; c < Eden[r].length; c++)
+            {
+                //当c小于r行的column数（长度），则进行下列指令
+                System.out.print(" " + Eden[r][c]);
+            }
+            System.out.println();
+        }
+        //r++（c++）或者++r（++c）应该是都可以，因为没有赋值给其他变量
+    }
+}
