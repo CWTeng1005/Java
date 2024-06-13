@@ -1,0 +1,15 @@
+public class Main
+{
+    //带参数的method
+    static void nameMethod(String fName)
+    {
+        System.out.println(fName + " Kaneshiro");
+    }
+    
+    public static void main(String[] args)
+    {
+        //引用输出method
+        nameMethod("Luca");
+        nameMethod("Lucy");
+    }
+}
