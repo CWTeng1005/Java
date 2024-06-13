@@ -1,0 +1,15 @@
+public class Main
+{
+    //带多个参数的method
+    static void nameMethod(String fName, int age)
+    {
+        System.out.println(fName + " Kaneshiro is " + age + " years old.");
+    }
+    
+    public static void main(String[] args)
+    {
+        //引用输出method
+        nameMethod("Luca" , 6);
+        nameMethod("Lucy" , 7);
+    }
+}
