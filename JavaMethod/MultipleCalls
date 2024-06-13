@@ -1,0 +1,16 @@
+public class Main
+{
+    static void printMethod()
+    {
+        //创建一个输出的method
+        System.out.println("Just A Try!");
+    }
+    
+    public static void main(String[] args)
+    {
+        //多次引用输出method
+        printMethod();
+        printMethod();
+        printMethod();
+    }
+}
