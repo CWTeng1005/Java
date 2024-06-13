@@ -1,0 +1,14 @@
+public class Main
+{
+    static void printMethod()
+    {
+        //创建一个输出的method
+        System.out.println("Just A Try!");
+    }
+    
+    public static void main(String[] args)
+    {
+        //引用输出method
+        printMethod();
+    }
+}
