@@ -1,0 +1,22 @@
+public class Main
+{
+	//方法重载
+    static int plusMethod(int x, int y)
+    {
+    	return x + y;
+    }
+    
+    static double plusMethod(double x, double y)
+    {
+    	return x + y;
+    }
+    
+    public static void main(String[] args)
+    {
+    	int result1 = plusMethod(3 , 5);
+        double result2 = plusMethod(4.7 , 2.86);
+        System.out.println("int: " + result1);
+        System.out.println("double: " + result2);
+        //小数点后的数字很多是因为二进制无法精准表示所有的十进制小数，而是近似值
+    }
+}
