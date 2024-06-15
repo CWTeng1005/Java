@@ -1,0 +1,107 @@
+/*
+Class 类
+- 一个类是一个模板或蓝图，它定义了一组属性（字段）和方法（函数）
+- 类本身并不占用内存空间，只是用来描述对象的结构和行为
+- 定义类时，规定了对象将会有哪些数据（成员变量）和可以执行哪些操作（成员方法）
+
+Object 对象
+- 对象是类的实例，通过类创建的实际实体
+- 对象占用内存空间，它包含类定义的属性的数据
+- 可以通过类定义的方法来操作这些数据
+
+在类中创建对象通常有两种情况：
+1. 在类的main方法中创建对象
+2. 在一个类的方法中创建另一个类的对象
+*/
+
+
+/*
+//1. 在main方法中创建object
+public class Main
+{
+	//成员变量
+    String name;
+    int age;
+    
+    //构造方法
+    //这个似乎要和class名一样
+    public Main(String name, int age)
+    {
+    	this.name = name;
+        this.age = age;
+    }
+    
+    //成员方法
+    public void display()
+    {
+    	System.out.println("Name: " + name + " // Age: " + age);
+    }
+    
+    //main方法
+    public static void main(String[] args)
+    {
+    	//使用Person类创建对象
+        Main p1 = new Main("Alice", 17);
+        Main p2 = new Main("Luca", 18);
+        
+        //调用对象的方法
+        p1.display();
+        p2.display();
+    }
+}
+
+//
+- 'Main'类是一个模板，定义了'name'和'age'两个属性以及一个'display'方法
+- 在'main'方法中，我们使用'new'关键字创建了两个'Main'对象，'p1'和'p2'
+- 'p1'和'p2'是'Main'类的实例，每个对象都有自己的'name'和'age'属性
+*/
+
+
+//2.在一个类的方法中创建另一个类的对象
+public class Main
+{
+	String model;
+    int year;
+    
+    public Main(String model, int year)
+    {
+    	this.model = model;
+        this.year = year;
+    }
+    
+    public void display()
+    {
+    	System.out.println("Model:" + model + " // year:" + year);
+    }
+}
+
+//Garage类应该另外开一个Garage.java的文件
+public class Garage
+{
+	public void createCar()
+    {
+    	//在Garage类的方法中创建Car对象
+        Main car1 = new Main("Toyota", 2020);
+        car1.display();
+    }
+    
+    public static void main(String[] args)
+    {
+    	//创建Garage对象并调用其方法
+        Garage garage = new Garage();
+        garage.createCar();
+    }
+}
+
+/*
+- 'Main'类定义了'model'和'year'属性以及一个'display'方法
+- 'Garage'类有一个'createCar'方法，该方法创建一个'Main'对象并调用其'display'方法
+- 在'main'方法中，创建了一个'Garage'对象并调用了'createCar'方法。
+*/
+
+/*
+CONCLUSION：
+- Class 类：一个模板或蓝图，定义了对象的属性和行为
+- Object 对象：类的实例，通过类创建的实际实体
+- 在类中创建对象是指根据类的定义，使用'new'关键字生成类的实例。这个实例就是对象，可以使用类定义的方法和属性。
+*/
